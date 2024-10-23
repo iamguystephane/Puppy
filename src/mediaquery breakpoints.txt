@@ -1,0 +1,7 @@
+normal mobile view: (maxwidth: 480px)
+
+large mobile view/small tablets: (maxwidth: 768px)
+
+large tablets/small desktop screens (maxwidth: 1200px)
+
+then finally, desktop screen and above which is the normal design

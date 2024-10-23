@@ -1,0 +1,528 @@
+@media (max-width: 480px){
+  .left-nav {
+    width: 100%;
+  }
+  .left-nav .menu-bar{
+    display: block;
+  }
+  .left-nav .responsive-menu{
+    overflow: auto;
+  }
+  .left-nav .logo{
+    font-size: 14px;
+    width: 100%;
+  }
+  .right-nav {
+    display: none;
+  }
+  .our-promise, .about-us, .available-puppies{
+    display: none;
+  }
+  .middle-nav{
+    display: none;
+  }
+  .trusted-section{
+    flex-direction: column;
+  }
+ .trusted-section p{
+  display: none;
+ }
+  .header-body h2{
+    color: white;
+    font-size: 30px;
+    margin-left: 5%;
+  }
+  .header-body .header-body-firstParagraph{
+    font-size: 20px;
+    margin-left: 5%;
+  }
+  .header-body button{
+    padding: 10px 30px;
+  }
+  .header-puppy-info{
+    width: 100%;
+  }
+  .header-puppy-info .left-info{
+    flex-wrap: wrap;
+    padding: 1em 0;
+  }
+  .header-puppy-info .left-info .bottom-info{
+    display: flex;
+  }
+  .header-puppy-info .left-info .top-info{
+    display: flex;
+  }
+  .header-puppy-info .right-info{
+    display: none;
+  }
+  .trusted-section .trusted-logos{
+    width: 120px;
+    height: 100px;
+  }
+  .trusted-section .star{
+    height: 20px;
+  }
+  .community-and-review-section{
+    flex-direction: column;
+  }
+  .community-and-review-section .left-section{
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .community-and-review-section .left-section p{
+    width: 100%;
+    padding-left: 1em;
+  }
+  .community-and-review-section .mills-btns{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .community-and-review-section .mills-btns .left-btn{
+    border-radius: 10px;
+  }
+  .community-and-review-section .mills-btns .right-btn{
+    border-radius: 10px; 
+  }
+  .community-and-review-section .right-section{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .community-and-review-section .right-section .review-carousel .review-card img{
+    width: 95%;
+  }
+  .community-and-review-section .right-section .review-carousel .review-card .review-card-section{
+    width: 90%;
+  }
+  .puppy-mill-img-div{
+    background-image: none;
+    box-shadow: none;
+    width: 100%;
+    height: fit-content;
+  }
+  .puppy-mill-div{
+    width: 100%;
+  }
+  .puppy-mill-img-div .mills-btns{
+    flex-direction: column;
+    width: 100%;
+    align-items: left;
+    justify-content: center;
+    gap: 5px;
+  }
+  .puppy-slider .carousel{
+    width: 100%;
+    padding: 0 1em;
+  }
+  .delivery-info .transportation-paragraph{
+    width: 90%;
+  }
+  .delivery-info .delivery-info-timeframe{
+    width: 90%;
+    margin-top: 1em;
+  }
+  .puppy-chaperone{
+    flex-wrap: wrap;
+  }
+  .chaperone-card-btns{
+    flex-direction: column;
+  }
+  footer .footer-delivery-text{
+    text-align: center;
+  }
+  footer .location-area{
+    flex-wrap: wrap;
+  }
+  footer .footer-contact-info{  
+    padding: 2em 3em;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  footer .logo-section{
+    padding: 0 1em;
+  }
+  footer .logo-section .footer-logos img{
+    width: 55px;
+    height: 40px;
+  }
+  footer .final-footer-section{
+    flex-direction: column;
+    padding: 0;
+    margin-top: 1em;
+  }
+  footer .final-footer-section ul{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .resource-center-container .main-heading{
+    text-align: center;
+  }
+  .resource-center-container .main-image{
+    width: 90%;
+    height: 35vh;
+  }
+  .resource-center .first-line ul li{
+    width: 90%;
+  }
+  .resource-center .second-line ul li{
+    width: 90%;
+  }
+  .resource-center .third-line ul li{
+    width: 90%;
+  }
+  .resource-center .first-line ul, .second-line ul, .third-line ul{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .resource-center-container .promise-review-section{
+    width: 100%;
+  }
+  .resource-center-container .promise-review-section .left-section img{
+    display: none;
+  }
+  .main-travel-section h1{
+    width: 85%;
+  }
+  .main-travel-section p{
+    width: 85%;
+    text-align: left;
+  }
+  .main-travel-section h3{
+    width: 85%;
+  }
+  .main-travel-section .articles{
+    width: 100%;
+    justify-content: center;
+  }
+  .main-travel-section .articles .article-card{
+    width: 85%;
+  }
+  .travel-puppy-search h2{
+    width: 100%;
+    text-align: center;
+  }
+  .travel-puppy-search p{
+    width: 85%;
+  }
+  .road-travel-article img{
+    height: 30vh;
+  }
+  .road-travel-article h2{
+    width: 95%;
+    font-size: 20px;
+  }
+  .road-travel-article .description{
+    width: 95%;
+  }
+  .road-travel-article::after{
+    width: 95%;
+  }
+
+  /* Include as from this line in the keyframe for ipad */
+  .about-header {
+    padding: 1em 10px;
+  }
+  .about-header p {
+    font-size: 25px;
+  }
+  .about-body-section1 h1 {
+    width: 90%;
+    font-size: 30px;
+    text-align: left;
+    margin: 1em 0;
+  }
+  .about-body-section1 p {
+    width: 90%;
+    text-align: left;
+  }
+  .about-body-section2 {
+    flex-direction: column;
+  }
+  .about-body-section2 p {
+    font-size: 25px;
+    width: 90%;
+    margin-top: 1em;
+  }
+  .about-body-section2 img {
+    margin: 15px 0;
+  }
+  .about-body-final-section .about-leadership-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-body-final-section .about-leadership-section .about-leadership-vr {
+    display: none;
+  }
+  .about-body-final-section .about-leadership-section .about-leadership-infosection{
+    width: 90%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .left-nav {
+    width: 50%;
+  }
+  .left-nav .menu-bar{
+    display: block;
+  }
+  .left-nav .responsive-menu{
+    overflow: auto;
+  }
+  .left-nav .logo{
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .our-promise, .about-us, .available-puppies{
+    display: none;
+  }
+  .middle-nav{
+    display: none;
+  }
+  .right-nav {
+    width: 30%;
+  }
+  .right-nav span{
+    font-size: 14px;
+    width: 100%;
+  }
+  .login-btn{
+    display: none;
+  }
+  .trusted-section{
+    flex-direction: column;
+  }
+ .trusted-section p{
+  display: none;
+ }
+  .header-body h2{
+    color: white;
+    font-size: 30px;
+    margin-left: 5%;
+  }
+  .header-body .header-body-firstParagraph{
+    font-size: 20px;
+    margin-left: 5%;
+  }
+  .header-body button{
+    padding: 10px 30px;
+  }
+  
+  .trusted-section .trusted-logos{
+    width: 120px;
+    height: 100px;
+  }
+  .trusted-section .star{
+    height: 20px;
+  }
+  .community-and-review-section{
+    flex-direction: column;
+  }
+  .community-and-review-section .left-section{
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .community-and-review-section .left-section p{
+    width: 100%;
+    padding-left: 1em;
+  }
+  .community-and-review-section .mills-btns{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .community-and-review-section .mills-btns .left-btn{
+    border-radius: 10px;
+  }
+  .community-and-review-section .mills-btns .right-btn{
+    border-radius: 10px; 
+  }
+  .community-and-review-section .right-section{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .community-and-review-section .right-section .review-carousel .review-card img{
+    width: 95%;
+  }
+  .community-and-review-section .right-section .review-carousel .review-card .review-card-section{
+    width: 90%;
+  }
+  .puppy-mill-img-div{
+    background-image: none;
+    box-shadow: none;
+    width: 100%;
+    height: fit-content;
+  }
+  .puppy-mill-div{
+    width: 100%;
+  }
+  .puppy-mill-img-div .mills-btns{
+    flex-direction: column;
+    width: 100%;
+    align-items: left;
+    justify-content: center;
+    gap: 5px;
+  }
+  .puppy-slider .carousel{
+    width: 100%;
+    padding: 0 1em;
+  }
+  .delivery-info .transportation-paragraph{
+    width: 90%;
+  }
+  .delivery-info .delivery-info-timeframe{
+    width: 90%;
+    margin-top: 1em;
+  }
+  .puppy-chaperone{
+    flex-wrap: wrap;
+  }
+  .chaperone-card-btns{
+    flex-direction: column;
+  }
+  footer .footer-delivery-text{
+    text-align: center;
+  }
+  footer .location-area{
+    flex-wrap: wrap;
+  }
+  footer .footer-contact-info{  
+    padding: 2em 3em;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  footer .logo-section{
+    padding: 0 1em;
+  }
+  footer .logo-section .footer-logos img{
+    width: 55px;
+    height: 40px;
+  }
+  footer .final-footer-section{
+    flex-direction: column;
+    padding: 0;
+    margin-top: 1em;
+  }
+  footer .final-footer-section ul{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .resource-center-container .main-heading{
+    text-align: center;
+  }
+  .resource-center-container .main-image{
+    width: 90%;
+    height: 35vh;
+  }
+  .resource-center .first-line ul li{
+    width: 40%;
+  }
+  .resource-center .second-line ul li{
+    width: 40%;
+  }
+  .resource-center .third-line ul li{
+    width: 40%;
+  }
+  .resource-center .first-line ul, .second-line ul, .third-line ul{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .resource-center-container .promise-review-section{
+    width: 100%;
+  }
+  .resource-center-container .promise-review-section .left-section img{
+    display: none;
+  }
+  .main-travel-section h1{
+    width: 85%;
+  }
+  .main-travel-section p{
+    width: 85%;
+    text-align: left;
+  }
+  .main-travel-section h3{
+    width: 85%;
+  }
+  .main-travel-section .articles{
+    width: 100%;
+    justify-content: center;
+  }
+  .main-travel-section .articles .article-card{
+    width: 85%;
+  }
+  .travel-puppy-search h2{
+    width: 100%;
+    text-align: center;
+  }
+  .travel-puppy-search p{
+    width: 70%;
+  }
+  .road-travel-article img{
+    height: 50vh;
+  }
+  .road-travel-article h2{
+    width: 95%;
+    font-size: 20px;
+  }
+  .road-travel-article .description{
+    width: 95%;
+  }
+  .road-travel-article::after{
+    width: 95%;
+  }
+  .about-header {
+    padding: 1em 10px;
+  }
+  .about-header p {
+    font-size: 25px;
+  }
+  .about-body-section1 h1 {
+    width: 90%;
+    font-size: 30px;
+    text-align: left;
+    margin: 1em 0;
+  }
+  .about-body-section1 p {
+    width: 90%;
+    text-align: left;
+  }
+  .about-body-section2 {
+    flex-direction: column;
+  }
+  .about-body-section2 p {
+    font-size: 25px;
+    width: 90%;
+    margin-top: 1em;
+  }
+  .about-body-section2 img {
+    margin: 15px 0;
+  }
+  .about-body-final-section .about-leadership-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-body-final-section .about-leadership-section .about-leadership-vr {
+    display: none;
+  }
+  .about-body-final-section .about-leadership-section .about-leadership-infosection{
+    width: 90%;
+  }
+}
